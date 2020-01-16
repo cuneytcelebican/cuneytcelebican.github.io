@@ -40,15 +40,21 @@ body{
 small{
     font-size: 12px;
 }
-.wrapper{
+.wrapper {
     max-width: 600px;
     margin: 0px auto;
     background: #FFFFFF;
-    padding: 30px;
+    padding: 10px 10px 30px 0px;
 }
 .personal-information{
+    margin: 0px auto;
+}
+.profile-svg{
     width: 300px;
     margin: 0px auto;
+}
+.wawe {
+    margin-top: 15px;
 }
 .brand {
     font-size: 40px;
@@ -159,5 +165,3 @@ footer {
         width: 20%;
     }
 }
-
-
