@@ -109,7 +109,8 @@ section .title {
     margin-bottom: 5px;
 }
 .work-experience > .item > div > .date,
-.education > .item > div > .date {
+.education > .item > div > .date,
+.awards > .item > div > .date {
     text-align: right;
 }
 #skills {

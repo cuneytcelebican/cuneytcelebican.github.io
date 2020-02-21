@@ -204,13 +204,48 @@
                     "Experience with Amazon Web Services and Heroku"
                 ],
                 awards: [
-                    "2019 Nominated for Undergraduate Co-op Student of the Year",
-                    "2018 Dean's Honour List – Carleton University",
-                    "2018 David A. Golden Scholarship – Carleton University",
-                    "2017 Carleton Bursary (TSA) - Carleton University",
-                    "2016 Carleton Entrance Bursary - Carleton University",
-                    "2015 Dean's Honour List - Algoinquin College",
-                    "2007 Web Design Contest - Devran College"
+                    {
+                        name: "Nominated for Undergraduate Co-op Student of the Year",
+                        instutition: "Carleton University",
+                        location: "Ottawa, ON",
+                        date: "2019",
+                    },
+                    {
+                        name: "Dean's Honour List",
+                        instutition: "Carleton University",
+                        location: "Ottawa, ON",
+                        date: "2018",
+                    },
+                    {
+                        name: "David A. Golden Scholarship",
+                        instutition: "Carleton University",
+                        location: "Ottawa, ON",
+                        date: "2018",
+                    },
+                    {
+                        name: "Carleton Bursary (TSA)",
+                        instutition: "Carleton University",
+                        location: "Ottawa, ON",
+                        date: "2017",
+                    },
+                    {
+                        name: "Carleton Entrance Bursary",
+                        instutition: "Carleton University",
+                        location: "Ottawa, ON",
+                        date: "2016",
+                    },
+                    {
+                        name: "Dean's Honour List",
+                        instutition: "Algoinquin College",
+                        location: "Ottawa, ON",
+                        date: "2015",
+                    },
+                    {
+                        name: "Web Design Contest Winner",
+                        instutition: "Devran College",
+                        location: "Istanbul, Turkey",
+                        date: "2007",
+                    },
                 ],
                 projects: [
                     {
@@ -339,8 +374,17 @@
                 awards.forEach(award => 
                 {
                     let wrapper = createSection(section, "div", "item");
-                    let awardName = createSection(wrapper, "h5", "award-name");
-                    awardName.innerText = award;
+
+                    let field = createSection(wrapper, "h5", "award-name");
+                    field.innerText = award.name;
+
+                    let nameAndDateWrapper = createSection(wrapper, "div", "row");
+
+                    let name = createSection(nameAndDateWrapper, "div", "col-md-7, instutition");
+                    name.innerText = `${award.instutition}, ${award.location}`;
+
+                    let date = createSection(nameAndDateWrapper, "div", "col-md-5, date");
+                    date.innerText = award.date;
                 });
             }
 
