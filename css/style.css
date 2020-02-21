@@ -10,6 +10,10 @@ a{
     color: #2c2c2c;
     text-decoration: none;
 }
+a:hover {
+    color: #545454;
+    text-decoration: underline;
+}
 body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -145,4 +149,12 @@ ul.skill-list {
 }
 .item:last-child {
     margin-bottom: 0px;
+}
+.links {
+    font-weight: 600;
+    font-size: 12px;
+    font-style: italic;
+}
+.links > a {
+    color: #545454;
 }
