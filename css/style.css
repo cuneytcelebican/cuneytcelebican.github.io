@@ -91,6 +91,7 @@ footer {
 section .title {
     border-bottom: 1px solid #2d2d2c;
     padding-bottom: 5px;
+    font-weight: 700;
 }
 .work-experience > .item,
 .education > .item,
@@ -116,7 +117,7 @@ section .title {
 }
 #skills > .title {
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 700;
     border-bottom: 1px solid #2d2d2b;
     padding-bottom: 5px;
 }
