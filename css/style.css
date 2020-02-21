@@ -106,8 +106,7 @@ section .title {
 .work-experience > .item > .position-title,
 .education > .item > .school-field,
 .awards > .item > .award-name,
-.projects > .item > .project-name,
-.goals > .item > .goal-name {
+.projects > .item > .project-name {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 5px;
