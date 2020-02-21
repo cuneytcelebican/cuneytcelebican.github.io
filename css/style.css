@@ -1,24 +1,6 @@
 /*
 Shopify CSS
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	border: 0;
-	font: inherit;
-	font-size: 100%;
-	font-style: inherit;
-	font-weight: inherit;
-	margin: 0;
-	outline: 0;
-	padding: 0;
-	vertical-align: baseline;
-}
 html {
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
@@ -33,6 +15,7 @@ body{
     font-size: 13px;
     background-color: #ffffff;
     color: #2c2c2c;
+    padding: 40px 0px;
 }
 .bold{
     font-weight: 800 !important;
@@ -50,17 +33,20 @@ small{
     margin: 0px auto;
 }
 .profile-svg{
-    width: 300px;
+    max-width: 300px;
     margin: 0px auto;
 }
 .wawe {
     margin-top: 15px;
 }
 .brand {
-    font-size: 40px;
     text-align: center;
     letter-spacing: -2px;
     margin-top: 10px;
+}
+.name-section {
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 .brand>a>span {
     font-weight: 100;
@@ -74,61 +60,12 @@ small{
 .brand>img {
     margin-top: 10px;
 }
-.resume {
-    display: block;
-    background: #2d2d2c;
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px 10px;
-    font-weight: 500;
-    margin-top: 5px;
-}
-.resume {
-    color: #FFFFFF;
-    font-size: 14px;
-    letter-spacing: 0px;
-}
-.resume>i {
-    margin-right: 2px;
-    font-size: 16px;
-}
-.previous-experiences {
-    margin: 20px 0px;
-    font-size: 14px;
-    letter-spacing: 0px;
-    text-align: center;
-    line-height: 22px;
-}
-.previous-experiences>span {
-    display: block;
-    font-weight: 200;
-    margin-bottom: 35px;
-}
-.calltext{
-    font-size: 17px;
-    letter-spacing: -1px;
-}
-.previous-experiences>span:nth-child(2) {
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-    border-bottom: 1px dashed #b3b3b3;
-    text-transform: uppercase;
-}
-.curernt-projects{
-    margin-left: -10px;
-}
-.curernt-projects>a>img {
-    width: 14.3%;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
 .social-links {
     font-size: 40px;
     text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px dashed #b3b3b3;
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid #2d2d2b;
 }
 .social-links>span {
     display: block;
@@ -152,16 +89,70 @@ small{
     color: #3b5998;
 }
 footer {
-    text-align: center;
-    padding-bottom: 10px;
+    text-align: right;
+    margin-top: 25px;
     font-size: 11px;
     color: #a5a5a5;
 }
-@media (max-width: 610px){
-    .wrapper {
-        max-width: 300px;
-    }
-    .curernt-projects>a>img {
-        width: 20%;
-    }
+#main-content > section {
+    margin-bottom: 20px;
+}
+#main-content > section:last-child {
+    margin-bottom: 0px;
+}
+section .title {
+    border-bottom: 1px solid #2d2d2c;
+    padding-bottom: 5px;
+}
+.work-experience > .item,
+.education > .item,
+.awards > .item,
+.projects > .item {
+    margin-bottom: 15px;
+}
+.work-experience > .item > .position-title,
+.education > .item > .school-field,
+.awards > .item > .award-name,
+.projects > .item > .project-name,
+.goals > .item > .goal-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.work-experience > .item > div > .date,
+.education > .item > div > .date {
+    text-align: right;
+}
+#skills {
+    margin-top: 25px;
+}
+#skills > .title {
+    font-size: 19px;
+    font-weight: 600;
+    border-bottom: 1px solid #2d2d2b;
+    padding-bottom: 5px;
+}
+ul.skill-list {
+    padding-left: 15px;
+}
+.skill-list > .skill-name {
+    margin-bottom: 5px;
+}
+.brand > .title {
+    letter-spacing: 0.2px;
+    display: block;
+    font-weight: 100;
+    margin-top: -2px;
+    font-size: 16px;
+    font-style: italic;
+}
+.brand > .title > .title-dark {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 6px;
+    font-weight: 600;
+    font-style: inherit;
+}
+.item:last-child {
+    margin-bottom: 0px;
 }

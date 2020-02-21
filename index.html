@@ -1,57 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="author" content="Cuneyt Celebican">
-	<meta name="description" content="Hey, I am a developer with 6+ years experiences and I am living in Ottawa">
-	<meta name="keywords" content="cuneyt celebican, web developer, software developer, front end developer, developer, Ottawa">
-    <meta name="google-site-verification" content="kejzl3bKglVLzifip8XoEPok6H1wRUDgIdGcZAnFYR0" />
-    <title>Cuneyt Celebican</title>
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Font awesome -->
-    <script src="https://use.fontawesome.com/e2fed9bcc9.js"></script>  
-  </head>
+        <meta name="author" content="Cuneyt Celebican">
+        <meta name="description" content="Hey, I am a developer with 6+ years experiences and I am living in Ottawa">
+        <meta name="keywords" content="cuneyt celebican, web developer, software developer, front end developer, developer, Ottawa">
+        <meta name="google-site-verification" content="kejzl3bKglVLzifip8XoEPok6H1wRUDgIdGcZAnFYR0" />
+        <title>Cuneyt Celebican</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
-  <body>
-      
-      <div class="wrapper">
-          <div class="personal-information">
-            <div class="profile-svg">
-                <img src="images/cuneytcelebican.svg">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Font awesome -->
+        <script src="https://use.fontawesome.com/e2fed9bcc9.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="personal-information">
+                        <div class="profile-svg">
+                            <img src="images/cuneytcelebican.svg">
+                        </div>
+                        <div class="brand">
+                                <div class="name-section">Cuneyt <span class="bold">Celebican</span></div>
+                                <span class="title">Software <span class="title-dark">Developer</span></span>
+                        </div>
+                        <div class="profile-svg wawe">
+                            <img src="images/wawe.svg">
+                        </div>
+                    </div>
+                    <!-- <div class="previous-experiences">
+                        <span class="calltext">
+                            Hey, I am a fourth year computer science student with 6+ years experiences and I am living in Ottawa.
+                            <a href="https://github.com/cuneytcelebican/cuneytcelebican.github.io/blob/master/resume/CuneytCelebican.pdf" target="_blank" title="Download my resume"><span class="resume"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download my resume</span></a>
+                        </span>
+                    </div> -->
+                    <div id="skills">
+
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/cuneytcelebican" title="Visit my github" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/cuneytcelebican/" title="Visit my LinkedIn profile" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="https://www.behance.net/cuneytceleedcc" target="_blank" title="Visit my Behance profile"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/cuneytcelebican" target="_blank" title="Visit my Facebook profile"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div id="main-content">
+                    </div>
+                </div>
             </div>
-            <div class="brand">
-                    <a href="#"><span>Cuneyt <span class="bold">Celebican</span></span></a>
-                    <small>Bachelor of Computer Science, Software Engineering Stream, Minor in Math at Carleton University</small>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">© 2020 - Cuneyt Celebican</div>
+                </div>
             </div>
-            <div class="profile-svg wawe">
-                <img src="images/wawe.svg">
-            </div>
-          </div>
-          <div class="content">
-              
-              <div class="previous-experiences">
-                  <span class="calltext">
-                      Hey, I am a fourth year computer science student with 6+ years experiences and I am living in Ottawa.
-                      <a href="https://github.com/cuneytcelebican/cuneytcelebican.github.io/blob/master/resume/CuneytCelebican.pdf" target="_blank" title="Download my resume"><span class="resume"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download my resume</span></a>
-                   </span>
-              </div>
-              <div class="social-links">
-                  <span>You can reach me on</span>
-                  <a href="https://github.com/cuneytcelebican" title="Visit my github" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-                  <a href="https://www.linkedin.com/in/cuneytcelebican/" title="Visit my LinkedIn profile" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                  <a href="https://www.behance.net/cuneytceleedcc" target="_blank" title="Visit my Behance profile"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
-                  <a href="https://www.facebook.com/cuneytcelebican" target="_blank" title="Visit my Facebook profile"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-              </div>
-          </div>
-      </div>
-      <footer>
-            © 2020 - Cuneyt Celebican
-      </footer>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+        </footer>
+
+        <script>
+            const profile = {
+                workExperiences: [
+                    {
+                        company: "Carleton University",
+                        position: "Teaching Assistant – Course: COMP 2406 Fundamentals of Web Applications",
+                        location: "Ottawa, ON",
+                        startDate: "Jan 2020",
+                        endDate: "Present",
+                        responsibilities: 
+                        [
+                            "Developed a small-scale shopping application using JavaScript, NodeJS, Express JS, HTML, CSS, Handlebars and MongoDB for students",
+                            "Helping students during tutorials to understand the concept and the language itself",
+                            "Preparing and leading monthly workshops and occasional lectures"
+                        ]
+                    },
+                    {
+                        company: "Upland InGenius",
+                        position: "Software Developer - Co-op",
+                        location: "Ottawa, ON",
+                        startDate: "May 2019",
+                        endDate: "Dec 2019",
+                        responsibilities: 
+                        [
+                            "Developed workflow integrations for clients using TypeScript, JavaScript, and jQuery according to client needs",
+                            "Developed solutions for clients CRM platforms such as Salesforce, Microsoft Dynamics 365, and ServiceNow",
+                            "Integrated 3rd party APIs such as call recording, and fraud detection to customers current telephony system"
+                        ]
+                    },
+                    {
+                        company: "Carleton University",
+                        position: "Teaching Assistant – Course: COMP 2406 Fundamentals of Web Applications",
+                        location: "Ottawa, ON",
+                        startDate: "Sep 2018",
+                        endDate: "Apr 2019",
+                        responsibilities: 
+                        [
+                            "Helping students during tutorials to understand the concept and the language itself",
+                            "Preparing and leading monthly workshops and occasional lectures"
+                        ]
+                    },
+                    {
+                        company: "InGenius Software",
+                        position: "Software Developer - Co-op",
+                        location: "Ottawa, ON",
+                        startDate: "May 2018",
+                        endDate: "Aug 2018",
+                        responsibilities: 
+                        [
+                            "Developed workflow integrations for clients using TypeScript, JavaScript, and jQuery according to client needs",
+                            "Developed solutions for clients CRM platforms such as Salesforce, Microsoft Dynamics 365, and ServiceNow",
+                        ]
+                    },
+                    {
+                        company: "Carleton University - CICE",
+                        position: "Lead Web Developer",
+                        location: "Ottawa, ON",
+                        startDate: "Sep 2017",
+                        endDate: "May 2019",
+                        responsibilities: 
+                        [
+                            "Developed a Smart Cities Navigator portal using JavaScript, Node.js, HTML, CSS, jQuery, MongoDB, and Amazon Web Services",
+                            "Managing AWS platform with the needs of the project"
+                        ]
+                    },
+                    {
+                        company: "Woori Education",
+                        position: "Web Developer",
+                        location: "Toronto, ON",
+                        startDate: "Jul 2015",
+                        endDate: "May 2016",
+                        responsibilities: 
+                        [
+                            "Developed a company website and its plugins using WordPress, PHP, HTML, CSS, JavaScript, jQuery"
+                        ]
+                    },
+                    {
+                        company: "Sabim Technology",
+                        position: "Web Developer",
+                        location: "Istanbul, Turkey",
+                        startDate: "Jul 2015",
+                        endDate: "May 2016",
+                        responsibilities: 
+                        [
+                            "Developed and designed websites using ASP.Net, HTML5, CSS3, Twitter Bootstrap framework, WordPress, NopCommerce"
+                        ]
+                    },
+                    {
+                        company: "Morhipo.com",
+                        position: "Web Designer",
+                        location: "Istanbul, Turkey",
+                        startDate: "Sep 2011",
+                        endDate: "May 2013",
+                        responsibilities: 
+                        [
+                            "Developed web pages and mailings using JavaScript, HTML, and CSS.",
+                            "Designed website graphical content using Adobe Photoshop and Flash with resulting in increased brand awareness of a start-up company to reach 4,000,000 subscribers"
+                        ]
+                    }
+                ],
+                education: [
+                    {
+                        school: "Carleton University",
+                        location: "Ottawa, ON",
+                        field: "Bachelor of Computer Science, Software Engineering Stream, Minor in Math – Co-op",
+                        startDate: "Sep 2016",
+                        endDate: "Dec 2020"
+                    },
+                    {
+                        school: "Algonquin College",
+                        location: "Ottawa, ON",
+                        field: "English for Academic Purposes",
+                        startDate: "Sep 2014",
+                        endDate: "May 2015"
+                    },
+                    {
+                        school: "Suleyman Demirel University",
+                        location: "Isparta, Turkey",
+                        field: "Information Technology and Computer Programming",
+                        startDate: "Sep 2007",
+                        endDate: "Jun 2010"
+                    }
+                ],
+                skills: [
+                    "TypeScript, JavaScript, Node.js, Java, Python, jQuery, Angular, Express.js HTML5, CSS3, Handlebars, and Pug",
+                    "MongoDB, SQL and MySQL",
+                    "Windows, macOS and Ubuntu",
+                    "Atlassian tools such as Bitbucket, Confluence, JIRA and SourceTree",
+                    "GitHub and SVN",
+                    "Webpack and Gulp",
+                    "Salesforce, Microsoft Dynamics 365 and ServiceNow",
+                    "Experience with Amazon Web Services and Heroku"
+                ],
+                awards: [
+                    "2019 Nominated for Undergraduate Co-op Student of the Year",
+                    "2018 Dean's Honour List – Carleton University",
+                    "2018 David A. Golden Scholarship – Carleton University",
+                    "2017 Carleton Bursary (TSA) - Carleton University",
+                    "2016 Carleton Entrance Bursary - Carleton University",
+                    "2015 Dean's Honour List - Algoinquin College",
+                    "2007 Web Design Contest - Devran College"
+                ],
+                projects: [
+                    {
+                        name: "Shopping Application",
+                        description: ["Small-scale shopping application"],
+                        demo: "http://yardandgarage.herokuapp.com/",
+                        source: "https://github.com/cuneytcelebican/ShoppingApp",
+                    },
+                    {
+                        name: "Simple Mark",
+                        description: [
+                            "Web application developed for TAs for evaluating students assignments",
+                        ],
+                        demo: "https://simplemarkapp.herokuapp.com/",
+                        source: "https://github.com/cuneytcelebican/SimpleMark",
+                    }
+                ],
+                goals: [
+                    "Create an app using Ruby on Rails",
+                    "Develop new version for Simple Mark app",
+                    "Develop an open-source app"
+                ]
+            }
+
+            const contentWrapper = document.getElementById("main-content");
+            const skillsWrapper = document.getElementById("skills");
+            const workExperiences = createSection(contentWrapper, "section", "work-experience");
+            const education = createSection(contentWrapper, "section", "education");
+            const awards = createSection(contentWrapper, "section", "awards");
+            const projects = createSection(contentWrapper, "section", "projects");
+            const goals = createSection(contentWrapper, "section", "goals");
+
+            createSkills(skillsWrapper, profile.skills);
+            createWorkExperience(workExperiences, profile.workExperiences);
+            createEducation(education, profile.education);
+            createAwards(awards, profile.awards);
+            createProjects(projects, profile.projects);
+            createGoals(goals, profile.goals);
+
+            function createSection(binder, type, className)
+            {
+                let result = document.createElement(type);
+                
+                if (className && className.length)
+                {
+                    let classList = className.split(",");
+                    classList.forEach(name => 
+                    {
+                        result.classList.add(name.trim());
+                    })
+                    
+                }
+               
+                binder.appendChild(result);
+                return result;
+            }
+
+            function createSkills(section, skills)
+            {
+                let title = createSection(section, "h3", "title");
+                title.innerText = "Skills"
+                let skillList = createSection(section, "ul", "skill-list");
+                skills.forEach(skill => 
+                {
+                    let skillName = createSection(skillList, "li", "skill-name");
+                    skillName.innerText = skill;
+                });
+            }
+
+            function createWorkExperience(section, workExperiences)
+            {
+                let title = createSection(section, "h3", "title");
+                title.innerText = "Work Experiences"
+
+                workExperiences.forEach(experience => 
+                {
+                    let wrapper = createSection(section, "div", "item");
+
+                    let position = createSection(wrapper, "h5", "position-title");
+                    position.innerText = experience.position;
+
+                    let nameAndDateWrapper = createSection(wrapper, "div", "row");
+
+                    let company = createSection(nameAndDateWrapper, "div", "col-md-7, company-name");
+                    company.innerText = `${experience.company}, ${experience.location}`;
+
+                    let date = createSection(nameAndDateWrapper, "div", "col-md-5, date");
+                    date.innerText = `${experience.startDate} - ${experience.endDate}`;
+
+                    //let responsibilitiesWrapper = createSection(wrapper, "ul", "");
+                    // experience.responsibilities.forEach(responsibility => 
+                    // {
+                    //     let resp = createSection(responsibilitiesWrapper, "li", "section");
+                    //     resp.innerText = responsibility;
+                    // });
+                });
+            }
+
+            function createEducation(section, educations)
+            {
+                let title = createSection(section, "h3", "title");
+                title.innerText = "Education"
+
+                educations.forEach(education => 
+                {
+                    let wrapper = createSection(section, "div", "item");
+
+                    let field = createSection(wrapper, "h5", "school-field");
+                    field.innerText = education.field;
+
+                    let nameAndDateWrapper = createSection(wrapper, "div", "row");
+
+                    let name = createSection(nameAndDateWrapper, "div", "col-md-7, school-name");
+                    name.innerText = `${education.school}, ${education.location}`;
+
+                    let date = createSection(nameAndDateWrapper, "div", "col-md-5, date");
+                    date.innerText = `${education.startDate} - ${education.endDate}`;
+                });
+            }
+
+            function createAwards(section, awards)
+            {
+                let title = createSection(section, "h3", "title");
+                title.innerText = "Awards"
+
+                awards.forEach(award => 
+                {
+                    let wrapper = createSection(section, "div", "item");
+                    let awardName = createSection(wrapper, "h5", "award-name");
+                    awardName.innerText = award;
+                });
+            }
+
+            function createProjects(section, projects)
+            {
+                let title = createSection(section, "h3", "title");
+                title.innerText = "Projects"
+
+                projects.forEach(project => 
+                {
+                    let wrapper = createSection(section, "div", "item");
+                    let projectName = createSection(wrapper, "h5", "project-name");
+                    projectName.innerText = project.name;
+
+                    let description = createSection(wrapper, "div", "description");
+                    description.innerText = project.description;
+
+                    let demoAndSource = createSection(wrapper, "div", "links");
+                    let demoLink = createSection(demoAndSource, "a", "");
+                    demoLink.href = project.demo;
+                    demoLink.target = "_blank";
+                    demoLink.innerText = "Demo";
+                    demoLink.title = `Show ${project.name} project demo`;
+
+                    let divider = createSection(demoAndSource, "span", "");
+                    divider.innerText = " / ";
+
+                    let sourceLink = createSection(demoAndSource, "a", "");
+                    sourceLink.href = project.source;
+                    sourceLink.target = "_blank";
+                    sourceLink.innerText = "Source code";
+                    sourceLink.title = `Show ${project.name} project source code`;
+                    
+                });
+            }
+
+            function createGoals(section, goals)
+            {
+                let title = createSection(section, "h3", "title");
+                title.innerText = "Goals for 2020"
+
+                goals.forEach(goal => 
+                {
+                    let wrapper = createSection(section, "div", "item");
+                    let goalName = createSection(wrapper, "h5", "goal-name");
+                    goalName.innerText = goal;
+                });
+            }
+
+
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41228123-1"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
@@ -61,5 +402,5 @@
         gtag('config', 'UA-41228123-1');
         </script>
 
-  </body> 
+    </body> 
 </html>
