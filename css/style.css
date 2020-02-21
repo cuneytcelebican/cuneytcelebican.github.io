@@ -120,12 +120,6 @@ section .title {
 #skills {
     margin-top: 25px;
 }
-#skills > .title {
-    font-size: 19px;
-    font-weight: 700;
-    border-bottom: 1px solid #2d2d2b;
-    padding-bottom: 5px;
-}
 ul.skill-list {
     padding-left: 15px;
 }
@@ -163,4 +157,30 @@ ul.skill-list {
     text-align: center;
     line-height: 20px;
     font-weight: 300;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+#skills > .title{
+    border-bottom: 1px solid #2d2d2c;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+@media (min-width: 768px){
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+
+    #skills > .title {
+        font-size: 19px;
+        font-weight: 700;
+        border-bottom: 1px solid #2d2d2b;
+        padding-bottom: 5px;
+    }
 }
