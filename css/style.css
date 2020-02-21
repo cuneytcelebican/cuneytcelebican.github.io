@@ -76,18 +76,6 @@ small{
     margin-bottom: 4px;
     color: #616161;
 }
-.social-links>a::nth-child(2)>i{
-    color: #24292e;
-}
-.social-links>a:nth-child(3)>i{
-    color: #0077b5;
-}
-.social-links>a:nth-child(4)>i{
-    color: #365cff;
-}
-.social-links>a:nth-child(5)>i{
-    color: #3b5998;
-}
 footer {
     text-align: right;
     margin-top: 25px;
